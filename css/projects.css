@@ -1,12 +1,10 @@
 #projects {
-    width: 100%;
-    height: 100%;
+    display: flex;
     padding: 10px;
-    position: relative;
+    gap: 30px;
 }
 
 .project {
-    position: absolute;
     border: 2px solid #353FF5;
     background-color: #5552F0;
     color: #FFFFFF;
@@ -19,10 +17,6 @@
     box-sizing: border-box;
     display: inline-block;
     vertical-align: top;
-}
-
-#bf-interpreter {
-    left: 0px;
 }
 
 /* div.project {
