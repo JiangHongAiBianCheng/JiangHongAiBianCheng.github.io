@@ -1,4 +1,4 @@
-body, html {
+body:not(#content){
     margin: 0px 0px 0px 0px;
 }
 
